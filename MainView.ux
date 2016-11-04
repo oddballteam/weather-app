@@ -37,7 +37,7 @@
           .then(function(result) {
             return result.json();
           }).then(function(resultData){
-            data.value = resultData["main"]["temp"]*(9/5)-459.67 + 10;
+            data.value = resultData["main"]["temp"]*(9/5)-459.67;
             var description = resultData["weather"][0].description;
             switch(description) {
               case 'clear sky':
