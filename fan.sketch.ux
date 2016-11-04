@@ -1,0 +1,80 @@
+<Panel ux:Class="fan.GeneratedClasses">
+	<Image ux:Class="fan.iPhone_7.fan">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/iPhone_7.fan@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/iPhone_7.fan@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.iPhone_7._base">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/iPhone_7._base@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/iPhone_7._base@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2.Cloud_Copy">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud_Copy@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud_Copy@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2.Sun">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Sun@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Sun@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2.Cloud_Copy_2">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud_Copy_2@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud_Copy_2@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2.Cloud">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2.Cloud@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2_Copy.Group_3">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.Group_3@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.Group_3@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2_Copy.Group">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.Group@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.Group@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Artboard_2_Copy.DarkSun">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.DarkSun@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Artboard_2_Copy.DarkSun@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Cloud.Cloud_Copy_3">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Cloud.Cloud_Copy_3@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Cloud.Cloud_Copy_3@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Sun.Sun_Copy">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Sun.Sun_Copy@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Sun.Sun_Copy@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Raincloud.Raincloud">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Raincloud.Raincloud@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Raincloud.Raincloud@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+	<Image ux:Class="fan.Dark_Sun.DarkSun">
+		<MultiDensityImageSource>
+			<FileImageSource File="fan.sketch-assets/Dark_Sun.DarkSun@1x.png" Density="1" />
+			<FileImageSource File="fan.sketch-assets/Dark_Sun.DarkSun@2x.png" Density="2" />
+		</MultiDensityImageSource>
+	</Image>
+</Panel>
