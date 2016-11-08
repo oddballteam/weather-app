@@ -5,6 +5,8 @@
 <JavaScript>
   var Observable = require('FuseJS/Observable');
   var env = require('FuseJS/Environment');
+  var data = Observable("data");
+  var sunny = Observable(true);
   if (env.mobile) {
   var GeoLocation = require("FuseJS/GeoLocation");
     debug_log("Init geo.");
@@ -14,31 +16,14 @@
   else {
       debug_log("Not on mobile, so we don't have geo");
   }
-      var data = Observable("data");
-      
-  
-
-
-  var speed = Observable('8');
-  function increaseSpeed() {
-    speed.value = parseInt(speed.value, 10) + 1;
-  }
-  function decreaseSpeed() {
-    speed.value = parseInt(speed.value, 10) - 1;
-  }
-  module.exports = {
-    speed: speed,
-    increaseSpeed: increaseSpeed,
-    decreaseSpeed: decreaseSpeed,
-  };
-  var sunny = Observable(true);
     var url = "http://api.openweathermap.org/data/2.5/weather?lat=34.052235&lon=-118.243683&APPID=93d0a69709b00dd7053de487f94a6270" 
       fetch(url)
           .then(function(result) {
             return result.json();
           }).then(function(resultData){
-            data.value = resultData["main"]["temp"]*(9/5)-459.67 + 10;
+            data.value = resultData["main"]["temp"]*(9/5)-459.67;
             var description = resultData["weather"][0].description;
+            console.log(JSON.stringify(description));
             switch(description) {
               case 'clear sky':
                 sunny.value = true;
@@ -50,7 +35,7 @@
           });
           
         module.exports = {
-          temp: data.map(val => parseInt(val).toFixed() + '°F'),
+          temp: data.map(val => parseInt(val).toFixed() + 'F'),
           spin: data.map(val => parseInt(val, 10) / 40),
           sunny: sunny,
         }
