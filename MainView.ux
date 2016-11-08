@@ -35,8 +35,7 @@
           });
           
         module.exports = {
-          temp: data.map(val => parseInt(val).toFixed() + 'F'),
-          spin: data.map(val => parseInt(val, 10) / 40),
+          temp: data.map(function(val) {return parseInt(val).toFixed() + 'F' }),
           sunny: sunny,
         }
 
